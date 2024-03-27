@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #fff url(bg.png);
+}
+#container{
+    background: url(bg-area-principal.png) no-repeat;
+    margin: 0 auto;
+    
+}
+#topo{
+    position: relative;
+    background: #dbcd87;
+    height: 15.7em;
+    min-height: 250px;
+}
+#logo{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: url(topo-imagem-principal.png) no-repeat; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#menu{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background-color: blue;
+    right: 0;
+    background: url(topo-imagem-lateral.png);
+    z-index: 2;
+}
+#local{
+  margin-left: 50px;
+ margin-top: 15px;
+  border-top:1px solid   #ede9cc;
+  border-bottom: 1px solid #ede9cc;
+  font-size: 1.0em;
+  color: #8b8448;
+  
+}
+.titulo{
+    padding: 15px;
+    background: url(logo.png) no-repeat;
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+    text-indent: -9000;
+}
+.locais{
+    float: left;
+    line-height: 2.1em;
+}
+a.reserva{
+    float: right;
+    text-transform: uppercase ;
+    text-decoration: none;
+    color: #fff;
+    background: #a29750;
+    padding: 5px 10px;
+    margin: 3px;
+}
+#navegacao{
+float: left;
+}
+#navegacao ul{
+    list-style: none;
+    margin-left: 80px;
+    
+}
+#navegacao li{
+    padding: 13px;
+    line-height: 0.5em;
+}
+#navegacao a {
+    color: #a29750;
+    text-decoration: none;
+    
+}
+#navegacao a:hover{
+    background: #fdf6be;
+ 
+}
+#depoimento{
+   float: right;
+    height: 100px;
+}
+#principal{
+    width: 100%;
+
+}
+#texto{
+    margin-top: 10px;
+    width: 50%;
+    float: left;
+    background: #ede9cc;
+    padding: ;
+    
+}
+#lateral{
+    width: 50%;
+    float: right;
+}
+#rodape{
+    clear: both;
+}
+#texto h2{
+    color: #a29750;
+
+}
+/* lateral */
+#lateral ul{ 
+    list-style: none;
+}
+#lateral ul li img{
+    float: left;
+    padding: 5px;
+}
+
+
+#lateral h2{
+    color: #dbcd87;
+    background:  url(ornamento.png) no-repeat center right;
+}
+#lateral ul{
+    margin: 10px;
+}
+#lateral li{
+    padding: 18px;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+#lateral a{
+    color: black;
+}
+#lateral li:hover{
+    background-color: #f6f3d6;
+}

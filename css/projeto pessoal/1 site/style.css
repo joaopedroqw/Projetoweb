@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#cabecalho{
+    background:#1C1C1C;
+    text-align: center;
+}
+#titulo{
+color: aliceblue;
+font-size: 3em;
+padding: 10px;
+
+}
+#menu{
+color: #DC143C;
+padding: 15px;
+font-size: 1.4em;
+
+}
+a{
+    text-decoration: none;
+    color: #8B0000;
+    padding: 10px;
+}
+#cabecalho a:hover{
+color: white;
+background: #DC143C;
+}
+#principal{
+ width: 920px;   
+}
+#postagem{
+float: left;
+width: 650px;
+background: whitesmoke;
+padding: 10px;
+margin: 10px;
+
+}
+
+    
+
+
+.img{
+    margin: 4px;
+}
+h2{
+    color: #8B0000;
+}
+.p1{
+margin-top: 10px;
+background: whitesmoke;
+width: 220px;
+float: right;
+margin-bottom: 20px;
+}
+.p2{
+  width: 220px;
+  background: whitesmoke;
+    float: right;
+}

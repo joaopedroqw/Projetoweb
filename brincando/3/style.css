@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container{
+    width: 100%;
+
+}
+#topo{
+width: 100%;
+
+}
+#menu{
+float: left;
+width: 50%;
+}
+#navegacao{
+    float: right;
+    width: 50%;
+  
+}
+#navegacao ul{
+list-style: none;
+margin-top: 50px;
+background: red;
+
+}
+#navegacao li{
+float: right;
+padding: 10px;
+
+
+}
+#navegacao a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+   
+}
+#navegacao a:hover{
+color: blanchedalmond;
+  
+}
+.pandora{
+    width: 100px;
+
+}
+table{
+    padding: 20px;
+    margin-right: 0px;
+}
+input{
+    width: 300px;
+    height: 20px;
+}

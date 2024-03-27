@@ -1,0 +1,25 @@
+body{
+   background: #C0C0C0;
+   background-image: url(fundo.png);
+}
+#principal{
+    width: 900px;
+}
+#menu{
+border: 20px;
+padding: 5px;
+
+
+}
+#roteiro{
+
+    padding: 1px;
+    background:#FFFFF0 ;
+}
+a{
+    text-decoration: none;
+   color: rgb(124, 83, 29);
+}
+.centralizar{
+    text-align: center;
+}

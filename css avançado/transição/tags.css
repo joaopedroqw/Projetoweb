@@ -1,0 +1,20 @@
+
+body {
+    background: #c006b467;
+}
+header{
+    color: #c006b494;
+}
+nav ul {
+    list-style: none;
+}
+article{
+    background-color: #c006b467;
+    padding: 10px;
+}
+section{ 
+    margin: 10px;
+}
+aside{
+    background: #3806c06d;
+}

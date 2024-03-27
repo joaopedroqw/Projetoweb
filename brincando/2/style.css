@@ -1,0 +1,73 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+principal{
+    width: 750px;
+}
+#container{
+    width: 100%;
+    background: url(fundo.jpg) 
+}
+#logo{
+    text-align: center;
+    font-size: 2em;
+    line-height: 150px;
+}
+#menu{
+  list-style-type: none;
+}
+#menu{
+    text-decoration: none;
+    
+   
+}
+ul{
+   text-align: center;
+   
+}
+li{
+    list-style-type: none;
+   display: inline-block;
+   padding: 10px;
+   padding-bottom: 20px;
+   line-height: 2px;
+
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+/*postagem layot */
+#lateralright{
+    width: 57%;
+    float: right;
+    margin-bottom: 30px;
+}
+#lateralleft{
+    width: 41%;
+    height: 500px;
+    float: left;
+    
+}
+#rodape{
+    clear: both;
+    background-color: wheat ;
+text-align: center;
+}
+/* segunda pag */
+fieldset{
+    margin-bottom: 30px;
+
+}
+label{
+cursor: pointer;
+}
+input{
+margin-bottom: 10px;
+}
+legend{
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}

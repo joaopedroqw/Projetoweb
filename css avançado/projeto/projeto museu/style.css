@@ -1,0 +1,113 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 1580px;
+min-width: 650px;
+}
+#topo{
+    background-color: rgba(38, 28, 28, 0.926);
+    height: 230px;
+  
+}
+
+
+
+header{
+    color: aliceblue;
+    float: left;
+    margin-bottom: 5px;
+}
+header span{
+    color: rgba(177, 124, 11, 0.748);
+}
+
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin: 10px;
+}
+nav li{
+    float: left;
+    margin-bottom:10px;
+}
+nav a{
+    
+    display: block;
+    color:rgba(173, 120, 4, 0.748);
+    text-decoration: none;
+   margin: 20px 17px;
+   text-transform: uppercase;
+    font-size: 1.0em;
+    
+}
+nav a:hover{
+    color: rgba(61, 255, 47, 0.462);
+  
+}
+/*principal*/
+#principal{
+    margin: auto;
+}
+#conteudo{
+    width: 600px;
+    float: left;
+    margin: 10px;
+}
+aside{
+    width: 750px;
+    float: right;
+}
+aside section#formulario{
+width: 350px;
+background-color:#7e6b5681;
+}
+
+/* data*/
+section#data{
+background-color: aqua;
+}
+fieldset{
+    width: 350px;
+    height: 120px;
+    background-color:rgba(142, 134, 22, 0.4) ;
+   
+}
+input.borda{
+   border: 2px solid;
+   height: 20px;
+  margin-top: 10px;
+ 
+}
+
+input.botao{
+    padding: 10px;
+   width: 200px;
+   height: 40px;
+   margin-top: 5px;
+   margin-left: 50px;
+   background-color: rgba(250, 235, 215, 0.823);
+}
+label{
+    width: 80px;
+    display: inline-block;
+   
+}
+section#galeria a{
+    display: block;
+background: url(img/fundo-foto.png) no-repeat;
+padding: 10px;
+float: left;
+}
+section#site iframe{
+    float: right; 
+    padding: 10px;
+}
+section#mapa{
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}

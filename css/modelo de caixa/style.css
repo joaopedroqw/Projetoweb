@@ -1,0 +1,20 @@
+#principal{
+    margin: 15px;
+    padding: 10px ;
+}
+.conteudo{
+     border :1px solid red;
+     padding: 5px;
+
+}
+.conteudo2{
+    border: solid 1px red;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+#noticia{
+    background: blue;
+   
+
+}

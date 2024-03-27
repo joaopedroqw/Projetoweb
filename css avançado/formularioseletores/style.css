@@ -1,0 +1,27 @@
+body{
+   font-family: Georgia, 'Times New Roman', Times, serif
+}
+fieldset{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+legend{
+    font-weight: bold;
+}
+
+input{
+   width: 300px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+}
+label {
+    display: block;
+ cursor: pointer;
+}
+input[ type="radio"]{
+    width: auto;
+    
+}
+.escolha{
+    margin-right: 5px;
+}

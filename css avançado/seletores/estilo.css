@@ -1,0 +1,17 @@
+/*body{
+    color: rgb(234, 32, 66);
+    border: 1px solid black;
+}
+p{
+    color: aquamarine !important; 
+}
+p{
+    color: black;
+}*/
+*{
+    color: red
+}
+h2{/*3*/
+    color: blue;
+}
+
