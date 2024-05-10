@@ -51,21 +51,24 @@ nav li a {
         text-decoration: underline;
     }
     main{
+        display: flex;
+       
         width: 70vw;
         margin: auto;
     }
-    section .list{
+section .list{
        margin-top: 30px;
     }
-    section h3{
+section .list  h3{
         padding: 10px;
         background-color: #0426BC;
         width: 170px;
         border-radius: 2px;
     }
-    section li{
+section li{
        padding: 10px;
     }
+
     .list input{
 margin-top: 10px;
 padding: 8px;
@@ -73,6 +76,48 @@ border-radius: 10px;
 background-color: rgba(128, 128, 128, 0.485);
 border: none;
     }
+
+    .middle{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 25vw;
+        margin-left: 50px;
+        justify-content: center;
+       
+    }
+    .middle h3{
+        padding: 10px;
+        background-color: #0426BC;
+        width: 170px;
+        border-radius: 2px;
+        width: 100%;
+        
+    }
+
+    .middle img{
+      margin-top: 10px;
+        width: 30vw;
+    }
+    .news{
+        margin-top: 10px;
+    }
+    .news-word{
+        display: flex;
+        padding: 15px;
+    }
+  
+   
+    .news-word p{
+        text-align: justify;
+        margin-left: 15px;
+    }
+    .news-word img{
+        width: 75%;
+        height: 75%;
+    }
+   
+   
 
 
 
