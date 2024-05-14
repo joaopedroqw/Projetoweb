@@ -28,6 +28,18 @@ justify-content: space-between;
 header{
     padding: 10px;
 }
+h2{
+    background-color: #0426BC;
+    padding: 5px;
+    border-radius: 4px;
+}
+h4{
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 2px;
+    width: 50%;
+}
 nav ul {
     display: flex;
     margin-top: 50px;
@@ -86,6 +98,7 @@ border: none;
         justify-content: center;
        
     }
+    
     .middle h3{
         padding: 10px;
         background-color: #0426BC;
@@ -97,7 +110,7 @@ border: none;
 
     .middle img{
       margin-top: 10px;
-        width: 30vw;
+        width: 100%;
     }
     .news{
         margin-top: 10px;
@@ -105,19 +118,29 @@ border: none;
     .news-word{
         display: flex;
         padding: 15px;
-    }
+    }  
   
    
     .news-word p{
         text-align: justify;
         margin-left: 15px;
+        justify-content: center;
     }
     .news-word img{
         width: 75%;
-        height: 75%;
+        height: 50%;
     }
-   
-   
+    .right{
+margin:50px 30px;
+display: flex;
+flex-direction: column;
 
+   }
+   .right img{
+    margin-top: 10px;
+    width: 25vw;
+    height: 25vh;
+   }
+ 
 
 
